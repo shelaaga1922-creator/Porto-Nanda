@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shela — Electrical & Automation Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of an Electrical & Automation Engineer specializing in PLC, HMI, SCADA, and industrial control systems."
+    />
+    <meta property="og:title" content="Electrical & Automation Engineer" />
+    <meta
+      property="og:description"
+      content="PLC • HMI • SCADA • Energy Optimization"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="#main" class="skip">Skip to content</a>
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          <span class="bolt" aria-hidden="true"></span>
+          <span>Shela • Automation</span>
+        </div>
+        <nav aria-label="Primary">
+          <a href="#projects" data-i18n="nav_projects">Projects</a>
+          <a href="#skills" data-i18n="nav_skills">Skills</a>
+          <a href="#about" data-i18n="nav_about">About</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+        </nav>
+        <div class="right">
+          <a
+            class="btn alt"
+            href="#portfolio"
+            style="padding: 0.5rem 0.9rem; font-weight: 700"
+            >Portfolio</a
+          >
+          <button class="lang" id="langBtn" aria-label="Switch language">
+            ID
+          </button>
+          <button class="theme" id="themeBtn" aria-label="Switch theme">
+            Theme
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container" aria-label="Hero" id="spark-area">
+        <svg
+          class="circuit"
+          viewBox="0 0 1440 720"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <defs>
+            <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0%" stop-color="var(--cyan)" stop-opacity=".0" />
+              <stop offset="40%" stop-color="var(--cyan)" stop-opacity=".8" />
+              <stop offset="100%" stop-color="var(--accent)" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+          <g
+            stroke="url(#grad)"
+            stroke-width="2"
+            fill="none"
+            stroke-linecap="round"
+          >
+            <path
+              d="M0 100 Q 300 120 500 60 T 1000 120 T 1440 80"
+              vector-effect="non-scaling-stroke"
+            >
+              <animate
+                attributeName="stroke-dasharray"
+                from="1,600"
+                to="600,1"
+                dur="6s"
+                repeatCount="indefinite"
+              />
+            </path>
+            <path
+              d="M0 260 Q 250 240 480 300 T 980 260 T 1440 320"
+              vector-effect="non-scaling-stroke"
+            >
+              <animate
+                attributeName="stroke-dasharray"
+                from="1,600"
+                to="600,1"
+                dur="7s"
+                repeatCount="indefinite"
+              />
+            </path>
+            <path
+              d="M0 420 Q 230 460 480 420 T 980 480 T 1440 440"
+              vector-effect="non-scaling-stroke"
+            >
+              <animate
+                attributeName="stroke-dasharray"
+                from="1,600"
+                to="600,1"
+                dur="8s"
+                repeatCount="indefinite"
+              />
+            </path>
+          </g>
+        </svg>
+
+        <div class="wrap">
+          <div>
+            <div class="eyebrow">
+              <span class="tag" title="Expertise">PLC • HMI • SCADA</span>
+              <span class="tag" title="Location" data-i18n="loc"
+                >Based in Indonesia</span
+              >
+            </div>
+            <h1 class="title">
+              Hi, I'm <span class="accent">Shela</span><br /><span
+                data-i18n="hero_title"
+                >Electrical & Automation Engineer</span
+              >
+            </h1>
+            <p class="subtitle" id="subtitle" data-i18n="hero_sub">
+              I design reliable control systems for factories—Siemens TIA Portal
+              (S7-1200, PID_Compact), VFD integration, gas detection EWS, and
+              SCADA/telemetry. I care about safety, clarity, and measurable
+              impact.
+            </p>
+            <div class="cta">
+              <a class="btn" href="#contact" id="btnHire" data-i18n="hire"
+                >Hire me</a
+              >
+              <a
+                class="btn alt"
+                href="assets/CV/Shela Aga Pedrananda_CV_.pdf"
+                download
+                id="btnCV"
+                data-i18n="download"
+                >Download CV</a
+              >
+            </div>
+          </div>
+
+          <div class="portrait" aria-label="Professional portrait">
+            <img
+              id="portrait"
+              src="assets/image/nanda.png"
+              alt="Professional headshot"
+            />
+            <div class="neon-ring"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" aria-label="Impact">
+        <div class="grid stats">
+          <div class="stat">
+            <div class="num" data-count="9">0%</div>
+            <div class="label" data-i18n="stat_energy">
+              Energy saved via PID/VFD
+            </div>
+          </div>
+          <div class="stat">
+            <div class="num" data-count="10">0</div>
+            <div class="label" data-i18n="stat_ews">
+              Gas detector units deployed
+            </div>
+          </div>
+          <div class="stat">
+            <div class="num" data-count="30">0%</div>
+            <div class="label" data-i18n="stat_manual">Manual work reduced</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-count="14">0</div>
+            <div class="label" data-i18n="stat_months">
+              Months hands-on experience
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="container" aria-label="Projects">
+        <h2 class="section-title" data-i18n="projects_title">
+          Featured Projects
+        </h2>
+        <p class="section-sub" data-i18n="projects_sub">
+          Selected work where reliability, safety, and clarity were the
+          priorities.
+        </p>
+
+        <div class="grid projects" id="cards">
+          <article class="card" role="article">
+            <span class="badge tag">PLC • PID_Compact</span>
+            <h3 data-i18n="p1_title">Pneumatic Conveyor Pressure Control</h3>
+            <p data-i18n="p1_desc">
+              Built S7-1200 logic with <strong>PID_Compact</strong> and
+              integrated VFD to stabilize pressure near setpoint and improve
+              fault diagnostics — contributing to
+              <strong>≈9% energy saving</strong>.
+            </p>
+            <div class="cta">
+              <button
+                class="btn alt view-photos"
+                type="button"
+                data-slug="p1-pneumatic"
+                data-i18n="view_photos"
+              >
+                View photos
+              </button>
+            </div>
+          </article>
+
+          <article class="card" role="article">
+            <span class="badge tag">Safety • EWS</span>
+            <h3 data-i18n="p2_title">Gas Detector Early Warning System</h3>
+            <p data-i18n="p2_desc">
+              Delivered PLC & HMI based EWS across
+              <strong>10 storage units</strong> to strengthen safety compliance
+              and accelerate response time.
+            </p>
+            <div class="cta">
+              <button
+                class="btn alt view-photos"
+                type="button"
+                data-slug="p2-ews"
+                data-i18n="view_photos"
+              >
+                View photos
+              </button>
+            </div>
+          </article>
+
+          <article class="card" role="article">
+            <span class="badge tag">SCADA • CIMON</span>
+            <h3 data-i18n="p3_title">SWRO SCADA</h3>
+            <p data-i18n="p3_desc">
+              Designed SCADA screens and alarms giving clear visibility into
+              quality-critical parameters—cutting manual intervention by
+              <strong>&gt;30%</strong> and standardizing routine checks.
+            </p>
+            <div class="cta">
+              <button
+                class="btn alt view-photos"
+                type="button"
+                data-slug="p3-swro"
+                data-i18n="view_photos"
+              >
+                View photos
+              </button>
+            </div>
+          </article>
+
+          <article class="card" role="article">
+            <span class="badge tag">Power • Analytics</span>
+            <h3 data-i18n="p4_title">E-RTG Power Monitoring</h3>
+            <p data-i18n="p4_desc">
+              Implemented power monitoring for E-RTG enabling
+              <em>data-driven</em> load balancing and reporting for operations.
+            </p>
+            <div class="cta">
+              <button
+                class="btn alt view-photos"
+                type="button"
+                data-slug="p4-ertg"
+                data-i18n="view_photos"
+              >
+                View photos
+              </button>
+            </div>
+          </article>
+
+          <!--<article class="card" role="article">
+            <span class="badge tag">Python • OpenCV</span>
+            <h3 data-i18n="p5_title">Face Recognition-Based Presence System</h3>
+            <p data-i18n="p5_desc">
+              Built a webcam-based attendance system in Python with a custom GUI
+              (PyCharm). Iterated for accuracy & stability.
+            </p>
+            <div class="cta">
+              <button
+                class="btn alt view-photos"
+                type="button"
+                data-slug="p5-face"
+                data-i18n="view_photos"
+              >
+                View photos
+              </button>
+            </div>
+          </article> -->
+
+          <article class="card" role="article">
+            <span class="badge tag">STM32 • Firmware</span>
+            <h3 data-i18n="p6_title">STM32F446 Nucleo-64 Learning Module</h3>
+            <p data-i18n="p6_desc">
+              Designed/validated PCB, integrated sensor/actuator, developed
+              firmware & staged functional tests.
+            </p>
+            <div class="cta">
+              <button
+                class="btn alt view-photos"
+                type="button"
+                data-slug="p6-stm32"
+                data-i18n="view_photos"
+              >
+                View photos
+              </button>
+            </div>
+          </article>
+
+          <article class="card" role="article">
+            <span class="badge tag">AVR • CVAVR</span>
+            <h3 data-i18n="p7_title">ATmega8535 Learning Module</h3>
+            <p data-i18n="p7_desc">
+              Designed & analyzed PCB, integrated electrical subsystem,
+              programmed ATmega8535 (AVR/CVAVR).
+            </p>
+            <div class="cta">
+              <button
+                class="btn alt view-photos"
+                type="button"
+                data-slug="p7-atmega"
+                data-i18n="view_photos"
+              >
+                View photos
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="container" aria-label="Skills">
+        <h2 class="section-title" data-i18n="skills_title">Skills</h2>
+        <p class="section-sub" data-i18n="skills_sub">
+          Practical focus on controls engineering & tooling.
+        </p>
+        <div class="grid skills">
+          <div class="skill">
+            <strong data-i18n="skill1"
+              >PLC Programming (Siemens TIA Portal)</strong
+            >
+            <div class="bar" aria-label="Proficiency">
+              <span style="--val: 90%"></span>
+            </div>
+            <small class="muted"
+              >S7-1200 • Ladder • PID_Compact • HMI • diagnostics</small
+            >
+          </div>
+          <div class="skill">
+            <strong data-i18n="skill2">SCADA & Visualization</strong>
+            <div class="bar"><span style="--val: 80%"></span></div>
+            <small class="muted"
+              >CIMON • alarm design • trending • reporting</small
+            >
+          </div>
+          <div class="skill">
+            <strong data-i18n="skill3">Drives & Instrumentation</strong>
+            <div class="bar"><span style="--val: 78%"></span></div>
+            <small class="muted"
+              >VFD, sensors, transmitters, interlocks, commissioning</small
+            >
+          </div>
+          <div class="skill">
+            <strong data-i18n="skill4">Programming & Tools</strong>
+            <div class="bar"><span style="--val: 70%"></span></div>
+            <small class="muted"
+              >MATLAB/Simulink, Python basics, Git, documentation</small
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container" aria-label="About">
+        <h2 class="section-title" data-i18n="about_title">About</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <span class="dot" style="top: 6px"></span>
+            <h4 data-i18n="about1_title">Automation Graduate</h4>
+            <p data-i18n="about1_desc">
+              Hands-on projects in food processing plants and fuel storage
+              terminals. BNSP PLC programming certified.
+            </p>
+          </div>
+          <div class="tl-item">
+            <span class="dot" style="top: 78px"></span>
+            <h4 data-i18n="about2_title">Focus Areas</h4>
+            <p data-i18n="about2_desc">
+              PLC, HMI/SCADA, safety/EWS, and power monitoring. Passion for
+              clear diagnostics and standard work.
+            </p>
+          </div>
+          <div class="tl-item">
+            <span class="dot" style="top: 150px"></span>
+            <h4 data-i18n="about3_title">What I value</h4>
+            <p data-i18n="about3_desc">
+              Stable control loops, maintainable code, and measurable outcomes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Leadership & Involvement -->
+      <section id="org" class="container" aria-label="Leadership & Involvement">
+        <h2 class="section-title" data-i18n="org_title">
+          Leadership & Involvement
+        </h2>
+        <p class="section-sub" data-i18n="org_sub">
+          Selected organizational experiences, judged by impact and scope.
+        </p>
+
+        <div class="org-controls">
+          <span class="muted" data-i18n="org_sort">Sort:</span>
+          <div class="segmented">
+            <button
+              class="seg active"
+              id="sortScale"
+              data-i18n="org_sort_scale"
+            >
+              Scale
+            </button>
+            <button class="seg" id="sortTime" data-i18n="org_sort_time">
+              Timeline
+            </button>
+          </div>
+        </div>
+
+        <div class="grid org-list" id="orgList"><!-- filled by JS --></div>
+      </section>
+
+      <!-- Achievements / Training & Certifications -->
+      <section id="achv" class="container" aria-label="Achievements">
+        <h2 class="section-title" data-i18n="achv_title">
+          Achievements — Training & Certifications
+        </h2>
+        <p class="section-sub" data-i18n="achv_sub">
+          Selected trainings and certifications. Click to view the certificate.
+        </p>
+
+        <div class="org-controls" style="margin-top: 6px">
+          <span class="muted" data-i18n="achv_filter">Filter:</span>
+          <div class="segmented" role="tablist" aria-label="Type filter">
+            <button
+              class="seg active"
+              id="fAll"
+              data-type="all"
+              data-i18n="achv_all"
+            >
+              All
+            </button>
+            <button
+              class="seg"
+              id="fCert"
+              data-type="cert"
+              data-i18n="achv_cert"
+            >
+              Certifications
+            </button>
+            <button
+              class="seg"
+              id="fTrain"
+              data-type="training"
+              data-i18n="achv_train"
+            >
+              Trainings
+            </button>
+          </div>
+
+          <span class="muted" style="margin-left: 14px" data-i18n="achv_sort"
+            >Sort:</span
+          >
+          <div class="segmented" role="tablist" aria-label="Sort">
+            <button class="seg active" id="sPrestige" data-i18n="achv_prestige">
+              Prestige
+            </button>
+            <button class="seg" id="sYear" data-i18n="achv_year">Year</button>
+          </div>
+        </div>
+
+        <div class="grid achv-list" id="achvList"><!-- filled by JS --></div>
+
+        <div class="pager" id="achvPager" aria-label="Pagination">
+          <button class="pg-btn" id="pgPrev" disabled>‹</button>
+          <span class="pg-info" id="pgInfo">1 / 1</span>
+          <button class="pg-btn" id="pgNext" disabled>›</button>
+        </div>
+      </section>
+
+      <section id="contact" class="container" aria-label="Contact">
+        <h2 class="section-title" data-i18n="contact_title">
+          Let’s work together
+        </h2>
+        <p class="section-sub" data-i18n="contact_sub">
+          Tell me about your project or role. I usually respond within 24 hours.
+        </p>
+        <div class="contact">
+          <!-- Ganti email ini dengan email kamu atau integrasi EmailJS/Formspree -->
+          <form
+            action="mailto:hello@example.com"
+            method="post"
+            enctype="text/plain"
+            aria-label="Contact form"
+          >
+            <div class="field">
+              <label for="name" data-i18n="form_name">Name</label
+              ><input id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email" data-i18n="form_email">Email</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="msg" data-i18n="form_msg">Message</label
+              ><textarea
+                id="msg"
+                name="message"
+                placeholder="Project details, timeline, goals..."
+                required
+              ></textarea>
+            </div>
+            <button class="btn" type="submit" data-i18n="form_send">
+              Send Message
+            </button>
+          </form>
+          <div
+            style="
+              background: var(--card);
+              border: 1px solid rgba(255, 255, 255, 0.08);
+              border-radius: var(--radius);
+              padding: 22px;
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
+              justify-content: center;
+            "
+          >
+            <div class="tag" aria-label="Expertise">
+              Electrical • Automation
+            </div>
+            <h3 style="margin: 6px 0" data-i18n="quick_title">
+              Prefer a quick chat?
+            </h3>
+            <p class="subtitle" data-i18n="quick_desc">
+              Reach me via email or LinkedIn. I’m open to PLC/Automation roles
+              and projects.
+            </p>
+            <div class="cta">
+              <!-- Ganti email ini juga -->
+              <a
+                class="btn alt"
+                href="mailto:hello@example.com"
+                id="mailtoCTA"
+                data-i18n="email_cta"
+                >Email</a
+              >
+              <!-- Pastikan pakai https:// dan username benar -->
+              <a
+                class="btn"
+                href="https://www.linkedin.com/in/sheganda"
+                target="_blank"
+                rel="noopener"
+                id="linkedinCTA"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project Gallery Modal -->
+      <div id="pgModal" class="pg-modal" aria-hidden="true">
+        <div class="pg-backdrop"></div>
+        <div
+          class="pg-content"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Project gallery"
+        >
+          <button class="pg-close" aria-label="Close">✕</button>
+          <div class="pg-toolbar">
+            <div class="pg-title"></div>
+            <div class="pg-actions">
+              <button class="pg-download" title="Download">⬇</button>
+            </div>
+          </div>
+          <div class="pg-stage">
+            <img class="pg-img" alt="" />
+            <div class="pg-caption"></div>
+            <button class="pg-prev" aria-label="Previous">❮</button>
+            <button class="pg-next" aria-label="Next">❯</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        © <span id="year"></span> Shela Aga Pedrananda — Electrical & Automation
+        Engineer
+      </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "type": "cert",
+      "featured": true,
+      "title": { "id": "PLC Programming BNSP", "en": "PLC Programming BNSP" },
+      "year": 2025,
+      "provider": { "id": "LSP ITS", "en": "LSP ITS" },
+      "logo": "assets/org/lsp-its.jpg",
+      "certFile": "assets/cert/plc-programming-bnsp-2025.pdf",
+      "tags": ["PLC", "BNSP"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Programmable Logic Control (PLC)",
+        "en": "Programmable Logic Control (PLC)"
+      },
+      "year": 2024,
+      "provider": { "id": "Tekno Sains Academy", "en": "Tekno Sains Academy" },
+      "logo": "assets/org/tekno-sains-academy.jpg",
+      "certFile": "assets/cert/plc-tekno-sains-2024.pdf",
+      "tags": ["PLC", "Automation"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Pemrograman dengan Python",
+        "en": "Programming with Python"
+      },
+      "year": 2024,
+      "provider": { "id": "Dicoding", "en": "Dicoding" },
+      "logo": "assets/org/dicoding.jpg",
+      "certFile": "assets/cert/dicoding-python-2024.pdf",
+      "tags": ["Coding", "Python"]
+    },
+    {
+      "type": "training",
+      "title": { "id": "Dasar Dasar DevOps", "en": "Basic DevOps" },
+      "year": 2024,
+      "provider": { "id": "Dicoding", "en": "Dicoding" },
+      "logo": "assets/org/dicoding.jpg",
+      "certFile": "assets/cert/dicoding-devops-basic-2024.pdf",
+      "tags": ["DevOps"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Dasar Visualisasi Data",
+        "en": "Basic Data Visualization"
+      },
+      "year": 2023,
+      "provider": { "id": "Dicoding", "en": "Dicoding" },
+      "logo": "assets/org/dicoding.jpg",
+      "certFile": "assets/cert/dicoding-data-visualization-basic-2023.pdf",
+      "tags": ["Data", "Visualization"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Dasar Management Project",
+        "en": "Basic Project Management"
+      },
+      "year": 2023,
+      "provider": { "id": "Dicoding", "en": "Dicoding" },
+      "logo": "assets/org/dicoding.jpg",
+      "certFile": "assets/cert/dicoding-project-management-basic-2023.pdf",
+      "tags": ["Project Management"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Latihan Keterampilan Manajemen Mahasiswa Tingkat Dasar",
+        "en": "Student Management Skills Training — Basic Level"
+      },
+      "year": 2021,
+      "provider": {
+        "id": "Institut Teknologi Sepuluh Nopember",
+        "en": "Institut Teknologi Sepuluh Nopember"
+      },
+      "logo": "assets/org/its.jpg",
+      "certFile": "assets/cert/lkmm-tingkat-dasar-2021.pdf",
+      "tags": ["Leadership", "Organization"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Latihan Keterampilan Manajemen Mahasiswa Pra Tingkat Dasar",
+        "en": "Student Management Skills Training — Pre-Basic Level"
+      },
+      "year": 2021,
+      "provider": {
+        "id": "Institut Teknologi Sepuluh Nopember",
+        "en": "Institut Teknologi Sepuluh Nopember"
+      },
+      "logo": "assets/org/its.jpg",
+      "certFile": "assets/cert/lkmm-pra-tingkat-dasar-2021.pdf",
+      "tags": ["Leadership", "Organization"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Pelatihan Otomasi PLC/PAC",
+        "en": "PLC/PAC Automation Training"
+      },
+      "year": 2024,
+      "provider": { "id": "Tekno Sains Academy", "en": "Tekno Sains Academy" },
+      "logo": "assets/org/tekno-sains-academy.jpg",
+      "certFile": "assets/cert/otomasi-plc-pac-tekno-sains-2024.pdf",
+      "tags": ["PLC", "Automation"]
+    },
+    {
+      "type": "training",
+      "title": {
+        "id": "Intermediate Junior Web Developer",
+        "en": "Intermediate Junior Web Developer"
+      },
+      "year": 2025,
+      "provider": { "id": "KOMDIGI", "en": "KOMDIGI" },
+      "logo": "assets/org/komdigi.jpg",
+      "certFile": "assets/cert/komdigi-intermediate-jwd-2025.pdf",
+      "tags": ["Web", "Coding"]
+    }
+  ]
+}

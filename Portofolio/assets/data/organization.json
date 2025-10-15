@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "slug": "org-wro",
+      "scale": "international",
+      "scaleLabel": { "en": "International", "id": "Internasional" },
+      "title": {
+        "en": "WRO - Robo Mission (Senior)",
+        "id": "WRO - Robo Mission (Senior)"
+      },
+      "role": {
+        "en": "Competition Staff / Judge Assistant",
+        "id": "Staf Kompetisi / Asisten Juri"
+      },
+      "org": { "en": "World Robot Olympiad", "id": "World Robot Olympiad" },
+      "city": "Surabaya",
+      "period": "Mar 2023 – Jul 2023",
+      "start": "2023-03",
+      "logo": "assets/org/wro.jpg",
+      "impact": { "teams": 50 },
+      "bullets": {
+        "en": [
+          "Coordinated logistics and field readiness for 50+ teams; ensured rule adherence and fair play.",
+          "Streamlined check-in and scoring flow to reduce waiting time for participants."
+        ],
+        "id": [
+          "Koordinasi logistik & kesiapan arena untuk 50+ tim; memastikan kepatuhan aturan & fair play.",
+          "Merapikan alur check-in dan penilaian untuk mengurangi waktu tunggu peserta."
+        ]
+      },
+      "certFile": "assets/cert/wro-2023.png",
+      "photos": [
+        {
+          "src": "assets/projects/org-wro/overview.jpg",
+          "downloadable": true,
+          "caption": {
+            "en": "Event overview - Surabaya venue.",
+            "id": "Overview acara - venue Surabaya."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "org-rro",
+      "scale": "national",
+      "scaleLabel": { "en": "National", "id": "Nasional" },
+      "title": {
+        "en": "RRO - LEGO Competition",
+        "id": "RRO - LEGO Competition"
+      },
+      "role": { "en": "Competition Staff", "id": "Staf Kompetisi" },
+      "org": { "en": "RRO", "id": "RRO" },
+      "city": "Surabaya",
+      "period": "Sep 2022 – Jan 2023",
+      "start": "2022-09",
+      "logo": "assets/org/rro.jpg",
+      "impact": { "teams": 20 },
+      "bullets": {
+        "en": [
+          "Supported match operations for 20+ teams including inspection and schedule adherence.",
+          "Assisted referees in resolving rule clarifications efficiently."
+        ],
+        "id": [
+          "Mendukung operasional pertandingan untuk 20+ tim: inspeksi & ketepatan jadwal.",
+          "Membantu wasit menyelesaikan klarifikasi aturan dengan cepat."
+        ]
+      },
+      "certFile": "assets/cert/rro-2022.jpg",
+      "photos": [
+        {
+          "src": "assets/projects/org-rro/overview.jpg",
+          "downloadable": true,
+          "caption": {
+            "en": "National event day - match area.",
+            "id": "Hari acara nasional - area pertandingan."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "org-hima",
+      "scale": "university",
+      "scaleLabel": { "en": "University", "id": "Universitas" },
+      "title": {
+        "en": "Student Association - Internal Affairs",
+        "id": "Himpunan Mahasiswa - Staff Internal"
+      },
+      "role": { "en": "Staff", "id": "Staf" },
+      "org": {
+        "en": "ITS Student Association",
+        "id": "Himpunan Mahasiswa ITS"
+      },
+      "city": "Surabaya",
+      "period": "Jan 2024 – Dec 2024",
+      "start": "2024-01",
+      "logo": "assets/org/hima.jpg",
+      "bullets": {
+        "en": [
+          "Organized welfare initiatives (scholarship info, TOEFL preparation, sports programs).",
+          "Handled documentation, announcements, and on-site coordination."
+        ],
+        "id": [
+          "Mengorganisir program kesejahteraan (info beasiswa, persiapan TOEFL, program olahraga).",
+          "Menangani dokumentasi, pengumuman, dan koordinasi lapangan."
+        ]
+      },
+      "certFile": "assets/cert/hima-2024.pdf",
+      "photos": [
+        {
+          "src": "assets/projects/org-hima/overview.jpg",
+          "downloadable": true,
+          "caption": {
+            "en": "Internal program - briefing session.",
+            "id": "Program internal - sesi briefing."
+          }
+        }
+      ]
+    }
+  ]
+}

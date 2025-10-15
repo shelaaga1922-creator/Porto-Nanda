@@ -1,0 +1,440 @@
+{
+  "projects": [
+    {
+      "slug": "p1-pneumatic",
+      "title": {
+        "en": "Pneumatic Conveyor Pressure Control",
+        "id": "Kontrol Tekanan Konveyor Pneumatik"
+      },
+      "photos": [
+        {
+          "src": "assets/projects/p1-pneumatic/01-overview.jpg",
+          "type": "overview",
+          "fit": "cover",
+          "downloadable": true,
+          "date": "2024-06-10",
+          "caption": {
+            "en": "PLC controls pneumatic conveyor pressure; TIA Portal shows PID parameters, VFD frequency trend, and the stabilized pressure graph.",
+            "id": "PLC mengendalikan tekanan konveyor pneumatik; TIA Portal menampilkan parameter PID, tren frekuensi VFD, dan grafik tekanan yang distabilkan."
+          }
+        },
+        {
+          "src": "assets/projects/p1-pneumatic/02-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "The panel integrates PLC, VFD, pressure sensor, valves, limit switches, and a SwitchHub.",
+            "id": "Panel ini mengintegrasikan PLC, VFD, sensor tekanan, valve, limit switch, dan SwitchHub."
+          }
+        },
+        {
+          "src": "assets/projects/p1-pneumatic/03-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Hardware configuration maps I/O and VFD parameters; wiring closes feedback and drive circuits.",
+            "id": "Konfigurasi hardware memetakan I/O dan parameter VFD; pengkabelan menutup rangkaian umpan balik dan penggerak."
+          }
+        },
+        {
+          "src": "assets/projects/p1-pneumatic/04-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "System architecture links PLC, sensors, and actuators to the VFD over PROFINET/PROFIDrive.",
+            "id": "Arsitektur sistem menghubungkan PLC, sensor, dan aktuator ke VFD melalui PROFINET/PROFIDrive."
+          }
+        },
+        {
+          "src": "assets/projects/p1-pneumatic/05-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Control flow reads pressure, adjusts VFD frequency, and verifies limit-switch states.",
+            "id": "Alur kontrol membaca tekanan, menyesuaikan frekuensi VFD, dan memverifikasi status limit switch."
+          }
+        },
+        {
+          "src": "assets/projects/p1-pneumatic/06-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Tuned PID holds pressure stable with quicker settling and minimal oscillation.",
+            "id": "PID yang dituning menstabilkan tekanan dengan waktu tunak lebih cepat dan osilasi minimal."
+          }
+        },
+        {
+          "src": "assets/projects/p1-pneumatic/07-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Frequency trend reduces oscillations after optimization, delivering smoother fan operation.",
+            "id": "Tren frekuensi menurun osilasinya setelah optimasi, menghasilkan operasi kipas yang lebih mulus."
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "p2-ews",
+      "title": {
+        "en": "Gas Detector Early Warning System",
+        "id": "Early Warning System Gas Detector"
+      },
+      "photos": [
+        {
+          "src": "assets/projects/p2-ews/01-overview.jpg",
+          "type": "overview",
+          "fit": "cover",
+          "downloadable": true,
+          "date": "2024-06-10",
+          "caption": {
+            "en": "HMI main screen built in Vijeo Designer displays the overall site layout, key sensors, and system status in real time.",
+            "id": "Tampilan utama HMI pada Vijeo Designer menampilkan layout keseluruhan site, sensor utama, dan status sistem secara real-time."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/02-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "HMI includes multiple functional pages—sensor monitoring, alarm overview, pump control, and alarm history—each providing real-time system feedback.",
+            "id": "HMI mencakup beberapa halaman fungsional—monitoring sensor, tampilan alarm, kontrol pompa, dan riwayat alarm—yang semuanya memberikan umpan balik sistem secara real-time."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/03-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "HMI main screen developed in EasyBuilder Pro displays the site overview with all gas detector nodes and real-time status indicators.",
+            "id": "Tampilan utama HMI yang dibuat dengan EasyBuilder Pro menampilkan overview lokasi dengan seluruh node detektor gas dan indikator status secara real-time."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/04-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "HMI features multiple pages—sensor monitoring, sensor setup, trending, and alarm history—allowing users to configure and track gas level changes accurately.",
+            "id": "HMI memiliki beberapa halaman—monitoring sensor, pengaturan sensor, trending, dan riwayat alarm—yang memungkinkan pengguna mengatur serta memantau perubahan kadar gas secara akurat."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/05-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Main HMI screen on Weintek panel built with EasyBuilder Pro shows the site overview, detector node map, and live gas concentration indicators.",
+            "id": "Tampilan utama HMI pada panel Weintek yang dibuat dengan EasyBuilder Pro menampilkan overview lokasi, peta node detektor, serta indikator kadar gas secara langsung."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/06-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "HMI provides sensor monitoring, sensor setup, trending, and alarm history pages to ensure precise gas detection and system logging across the site.",
+            "id": "HMI menyediakan halaman monitoring sensor, pengaturan sensor, trending, dan riwayat alarm untuk memastikan deteksi gas yang presisi dan pencatatan sistem di seluruh area site."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/07-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Performed wiring on EWS control panels, trial test on Weintek MTV using EasyBuilder Pro, and calibration of Honeywell XCD gas detector sensors during system integration.",
+            "id": "Melakukan wiring pada panel kontrol EWS, uji coba tampilan MTV Weintek menggunakan EasyBuilder Pro, serta kalibrasi sensor gas detector Honeywell XCD selama proses integrasi sistem."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/08-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Developed PLC programs for the EWS system using Schneider Machine Expert Logic Builder and ZelioSoft 2 for smart relay configuration and alarm logic sequencing.",
+            "id": "Membuat program PLC untuk sistem EWS menggunakan Schneider Machine Expert Logic Builder dan ZelioSoft 2 untuk konfigurasi smart relay serta penyusunan logika alarm."
+          }
+        },
+        {
+          "src": "assets/projects/p2-ews/09-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Executed final wiring and system verification for EWS panels installed at Pertamina Patra Niaga site, ensuring all field sensors and alarms operated according to design.",
+            "id": "Melaksanakan wiring akhir dan verifikasi sistem untuk panel EWS yang terpasang di site Pertamina Patra Niaga, memastikan seluruh sensor lapangan dan alarm berfungsi sesuai rancangan."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "p3-swro",
+      "title": { "en": "SWRO SCADA", "id": "SCADA SWRO" },
+      "photos": [
+        {
+          "src": "assets/projects/p3-swro/01-overview.jpg",
+          "type": "overview",
+          "fit": "cover",
+          "downloadable": true,
+          "date": "2024-06-10",
+          "caption": {
+            "en": "SCADA overview for the SWRO system designed in CIMON displays the entire reverse osmosis process, including intake, filtration, RO membrane, and product flow in real time.",
+            "id": "Tampilan overview SCADA sistem SWRO yang dirancang di CIMON menampilkan keseluruhan proses reverse osmosis mulai dari intake, filtrasi, membran RO, hingga aliran produk secara real-time."
+          }
+        },
+        {
+          "src": "assets/projects/p3-swro/02-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "SCADA pages in CIMON include Backwash, Train 1&2, Manual Operation, and Alarm pages. Each interface visualizes process flow, manual control functions, and alarm monitoring to ensure continuous SWRO plant supervision.",
+            "id": "Tampilan SCADA di CIMON mencakup halaman Backwash, Train 1&2, Manual Operation, dan Alarm. Setiap antarmuka menampilkan alur proses, fungsi kontrol manual, serta pemantauan alarm untuk memastikan pengawasan plant SWRO berjalan terus-menerus."
+          }
+        },
+        {
+          "src": "assets/projects/p3-swro/03-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Main HMI screen developed in EasyBuilder Pro for the SWRO system displays the complete process overview including intake, RO membrane, and product tank monitoring.",
+            "id": "Tampilan utama HMI yang dibuat di EasyBuilder Pro untuk sistem SWRO menampilkan overview proses lengkap, meliputi intake, membran RO, dan pemantauan tangki produk."
+          }
+        },
+        {
+          "src": "assets/projects/p3-swro/04-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "HMI pages in EasyBuilder Pro include Backwash, Train 1&2, Manual Operation, and Alarm pages. Each page allows operators to monitor and control the SWRO process directly from the Weintek panel.",
+            "id": "HMI di EasyBuilder Pro mencakup halaman Backwash, Train 1&2, Manual Operation, dan Alarm. Setiap halaman memungkinkan operator memantau dan mengendalikan proses SWRO langsung dari panel Weintek."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "p4-ertg",
+      "title": {
+        "en": "E-RTG Power Monitoring",
+        "id": "Monitoring Daya E-RTG"
+      },
+      "photos": [
+        {
+          "src": "assets/projects/p4-ertg/01-overview.jpg",
+          "type": "overview",
+          "fit": "cover",
+          "downloadable": true,
+          "date": "2024-06-10",
+          "caption": {
+            "en": "Installed and wired power monitoring panels across multiple cubicles, ensuring correct phase alignment and communication between Schneider devices.",
+            "id": "Melakukan instalasi dan wiring panel power monitoring di setiap kubikel, memastikan kesesuaian fasa serta komunikasi antar perangkat Schneider."
+          }
+        },
+        {
+          "src": "assets/projects/p4-ertg/02-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Prepared and crimped Ethernet RJ45 communication cables for network connection between power monitoring panels.",
+            "id": "Menyiapkan dan melakukan crimping kabel komunikasi Ethernet RJ45 untuk koneksi jaringan antar panel power monitoring."
+          }
+        },
+        {
+          "src": "assets/projects/p4-ertg/03-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Tested network communication of power monitoring devices using laptop ping commands to verify data transmission stability across all panels.",
+            "id": "Melakukan pengujian komunikasi jaringan perangkat power monitoring menggunakan perintah ping pada laptop untuk memastikan stabilitas transmisi data di seluruh panel."
+          }
+        },
+        {
+          "src": "assets/projects/p4-ertg/04-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Tested fiber optic (FO) cable links between different areas using optical power tools to confirm proper data transmission for monitoring systems.",
+            "id": "Melakukan pengujian koneksi kabel fiber optik (FO) antar area menggunakan alat pengukur optik untuk memastikan transmisi data sistem monitoring berjalan dengan baik."
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "p5-face",
+      "title": {
+        "en": "Face Recognition-Based Presence System",
+        "id": "Sistem Presensi Berbasis Face Recognition"
+      },
+      "photos": [
+        {
+          "src": "assets/projects/p5-face/01-overview.jpg",
+          "type": "overview",
+          "fit": "cover",
+          "downloadable": true,
+          "date": "2024-06-10",
+          "caption": {
+            "en": "PLC regulates fan speed via VFD to hold the pressure setpoint after tuning.",
+            "id": "PLC mengatur kecepatan kipas via VFD untuk menjaga setpoint tekanan setelah tuning."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "p6-stm32",
+      "title": {
+        "en": "STM32F446 Nucleo-64 Learning Module",
+        "id": "Modul Pembelajaran STM32F446 Nucleo-64"
+      },
+      "photos": [
+        {
+          "src": "assets/projects/p6-stm32/01-overview.jpg",
+          "type": "overview",
+          "fit": "cover",
+          "downloadable": true,
+          "date": "2024-06-10",
+          "caption": {
+            "en": "Learning module based on the STM32F446 Nucleo-64 board, equipped with peripherals such as LCD, 7-segment display, keypad, relay, sensors, and communication modules (I²C, UART, PWM). The module is supported by a comprehensive manual book for basic microcontroller learning and peripheral interfacing.",
+            "id": "Modul pembelajaran berbasis board STM32F446 Nucleo-64, dilengkapi dengan periferal seperti LCD, 7-segment display, keypad, relay, sensor, serta modul komunikasi (I²C, UART, PWM). Modul ini didukung buku panduan lengkap untuk pembelajaran dasar mikrokontroler dan interfacing periferal."
+          }
+        },
+        {
+          "src": "assets/projects/p6-stm32/02-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Hardware development includes layout planning, PCB design, system architecture, and complete schematic for the STM32F446 Nucleo-64 learning board. Each section defines component placement, electrical routing, and module connections such as LCD, keypad, sensors, and communication interfaces.",
+            "id": "Pengembangan hardware mencakup perencanaan layout, desain PCB, arsitektur sistem, serta skematik lengkap untuk board pembelajaran STM32F446 Nucleo-64. Setiap bagian menjelaskan penempatan komponen, jalur kelistrikan, dan koneksi modul seperti LCD, keypad, sensor, serta antarmuka komunikasi."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "p7-atmega",
+      "title": {
+        "en": "ATmega8535 Learning Module",
+        "id": "Modul Pembelajaran ATmega8535"
+      },
+      "photos": [
+        {
+          "src": "assets/projects/p7-atmega/01-overview.jpg",
+          "type": "overview",
+          "fit": "cover",
+          "downloadable": true,
+          "date": "2024-06-10",
+          "caption": {
+            "en": "ATmega-8535 microcontroller trainer kit designed for embedded system learning, complete with input–output modules, seven-segment displays, LCD, keypad, and communication interfaces. The kit is supported by a detailed guidebook that explains programming, circuit testing, and practical applications.",
+            "id": "Trainer kit mikrokontroler ATmega-8535 dirancang untuk pembelajaran sistem tertanam, dilengkapi dengan modul input–output, seven-segment display, LCD, keypad, serta antarmuka komunikasi. Kit ini didukung buku panduan lengkap yang menjelaskan pemrograman, pengujian rangkaian, dan penerapan praktis."
+          }
+        },
+        {
+          "src": "assets/projects/p7-atmega/02-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Hardware development includes layout design, PCB routing, system architecture, and schematic diagrams for the ATmega-8535 trainer kit. Each part defines component arrangement, circuit flow, and connectivity between peripherals such as sensors, actuators, and communication ports.",
+            "id": "Pengembangan hardware mencakup desain layout, jalur PCB, arsitektur sistem, dan diagram skematik untuk trainer kit ATmega-8535. Setiap bagian menjelaskan penataan komponen, alur rangkaian, serta konektivitas antara periferal seperti sensor, aktuator, dan port komunikasi."
+          }
+        },
+        {
+          "src": "assets/projects/p7-atmega/03-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "CHardware configuration maps I/O and VFD parameters; wiring closes feedback and drive circuits.",
+            "id": "Konfigurasi hardware memetakan I/O dan parameter VFD; pengkabelan menutup rangkaian umpan balik dan penggerak."
+          }
+        },
+        {
+          "src": "assets/projects/p7-atmega/04-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "System architecture links PLC, sensors, and actuators to the VFD over PROFINET/PROFIDrive.",
+            "id": "Arsitektur sistem menghubungkan PLC, sensor, dan aktuator ke VFD melalui PROFINET/PROFIDrive."
+          }
+        },
+        {
+          "src": "assets/projects/p7-atmega/05-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Control flow reads pressure, adjusts VFD frequency, and verifies limit-switch states.",
+            "id": "Alur kontrol membaca tekanan, menyesuaikan frekuensi VFD, dan memverifikasi status limit switch."
+          }
+        },
+        {
+          "src": "assets/projects/p7-atmega/06-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Tuned PID holds pressure stable with quicker settling and minimal oscillation.",
+            "id": "PID yang dituning menstabilkan tekanan dengan waktu tunak lebih cepat dan osilasi minimal."
+          }
+        },
+        {
+          "src": "assets/projects/p7-atmega/07-detail.jpg",
+          "type": "detail",
+          "fit": "cover",
+          "downloadable": false,
+          "date": "2024-06-11",
+          "caption": {
+            "en": "Frequency trend reduces oscillations after optimization, delivering smoother fan operation.",
+            "id": "Tren frekuensi menurun osilasinya setelah optimasi, menghasilkan operasi kipas yang lebih mulus."
+          }
+        }
+      ]
+    }
+  ]
+}
